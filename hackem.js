@@ -43,6 +43,6 @@
 function fullFunc(a){function d(b){if(b.length===0){a.ready();return false}
 $.getScript(b[0],function(){d(b.slice(1))})}function e(b){$.each(b,function(c,f){$("<link>")
 .attr({href:f,rel:"stylesheet",type:'text/css'}).appendTo("head")})}
-a.jqpath=a.jqpath||"//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js";
+a.jqpath=a.jqpath||"//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery-1.8.0.min.js";
 (function(b){var c=document.createElement("script");c.type="text/javascript";c.src=b;
 c.onload=function(){e(a.css);d(a.js)};document.body.appendChild(c)})(a.jqpath)};
